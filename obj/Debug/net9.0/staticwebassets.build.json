@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5su5n95BQXvZURP+FPiVX4LCOrWqJfkuf6h4+QETjAU=",
+  "Hash": "br4wUY4NX4sXU2EUm4v0Ah2JRM8YMFxEk1uEllN4km8=",
   "Source": "THAMCOMVC",
   "BasePath": "_content/THAMCOMVC",
   "Mode": "Default",
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz",
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz",
       "SourceId": "THAMCOMVC",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/THAMCOMVC",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=z683rxsr0p}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -304,8 +304,8 @@
       "RelatedAsset": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pw5l7j5n1s",
-      "Integrity": "KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=",
+      "Fingerprint": "s69mpsaovz",
+      "Integrity": "/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css"
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz",
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz",
       "SourceId": "THAMCOMVC",
       "SourceType": "Computed",
       "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/THAMCOMVC",
-      "RelativePath": "THAMCOMVC#[.{fingerprint=3dg82kvvus}]!.bundle.scp.css.gz",
+      "RelativePath": "THAMCOMVC#[.{fingerprint=5ofis2b3y1}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "x1kw884nf8",
-      "Integrity": "hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=",
+      "Fingerprint": "3xcrreszic",
+      "Integrity": "J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css"
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz",
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz",
       "SourceId": "THAMCOMVC",
       "SourceType": "Computed",
       "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/THAMCOMVC",
-      "RelativePath": "THAMCOMVC#[.{fingerprint=3dg82kvvus}]?.styles.css.gz",
+      "RelativePath": "THAMCOMVC#[.{fingerprint=5ofis2b3y1}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/bundle/THAMCOMVC.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "x1kw884nf8",
-      "Integrity": "hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=",
+      "Fingerprint": "3xcrreszic",
+      "Integrity": "J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/bundle/THAMCOMVC.styles.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "3dg82kvvus",
-      "Integrity": "KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=",
+      "Fingerprint": "5ofis2b3y1",
+      "Integrity": "K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/bundle/THAMCOMVC.styles.css"
@@ -1396,8 +1396,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "3dg82kvvus",
-      "Integrity": "KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=",
+      "Fingerprint": "5ofis2b3y1",
+      "Integrity": "K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "z683rxsr0p",
+      "Integrity": "O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/images /Thamco.png",
+      "SourceId": "THAMCOMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/",
+      "BasePath": "_content/THAMCOMVC",
+      "RelativePath": "images /Thamco#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85fz5trnvh",
+      "Integrity": "lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images /Thamco.png"
     },
     {
       "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/site.js",
@@ -2728,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.003115264798"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "320"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2793,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "673"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2822,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.z683rxsr0p.css",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003115264798"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "320"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z683rxsr0p"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.z683rxsr0p.css",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "673"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "z683rxsr0p"
         },
         {
           "Name": "label",
@@ -2831,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-O+vvKEJJSFIkm58vBhjxglzyl2LEEpNtVGQHj7ZCKXg="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz",
+      "Route": "css/site.z683rxsr0p.css.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "320"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
+          "Value": "Sat, 23 Nov 2024 19:51:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "z683rxsr0p"
         },
         {
           "Name": "label",
@@ -2884,144 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:22:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-/N49Qdl/GAqcNPE4iAO9UV6xQyo+tCJPyG1neLFIABU="
         }
       ]
     },
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "images /Thamco.85fz5trnvh.png",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/images /Thamco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 19:23:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85fz5trnvh"
+        },
+        {
+          "Name": "label",
+          "Value": "images /Thamco.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc="
+        }
+      ]
+    },
+    {
+      "Route": "images /Thamco.png",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/images /Thamco.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 23 Nov 2024 19:23:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc="
         }
       ]
     },
@@ -21286,13 +21389,13 @@
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.bundle.scp.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz",
+      "Route": "THAMCOMVC.5ofis2b3y1.bundle.scp.css",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -21302,15 +21405,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21330,13 +21433,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "W/\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21344,12 +21447,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.bundle.scp.css",
+      "Route": "THAMCOMVC.5ofis2b3y1.bundle.scp.css",
       "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21359,7 +21462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -21367,11 +21470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21381,7 +21484,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21389,13 +21492,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.bundle.scp.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz",
+      "Route": "THAMCOMVC.5ofis2b3y1.bundle.scp.css.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21404,7 +21507,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -21412,11 +21515,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21434,7 +21537,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21442,18 +21545,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY="
+          "Value": "sha256-J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo="
         }
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.styles.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz",
+      "Route": "THAMCOMVC.5ofis2b3y1.styles.css",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -21463,15 +21566,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21491,13 +21594,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "W/\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21505,12 +21608,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.styles.css",
+      "Route": "THAMCOMVC.5ofis2b3y1.styles.css",
       "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/bundle/THAMCOMVC.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21520,7 +21623,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -21528,11 +21631,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21542,7 +21645,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21550,13 +21653,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
-      "Route": "THAMCOMVC.3dg82kvvus.styles.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz",
+      "Route": "THAMCOMVC.5ofis2b3y1.styles.css.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21565,7 +21668,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -21573,11 +21676,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21595,7 +21698,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3dg82kvvus"
+          "Value": "5ofis2b3y1"
         },
         {
           "Name": "label",
@@ -21603,18 +21706,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY="
+          "Value": "sha256-J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo="
         }
       ]
     },
     {
       "Route": "THAMCOMVC.bundle.scp.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -21624,15 +21727,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21652,13 +21755,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "W/\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
@@ -21673,7 +21776,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -21681,11 +21784,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21695,13 +21798,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
       "Route": "THAMCOMVC.bundle.scp.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21710,7 +21813,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -21718,11 +21821,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21740,18 +21843,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY="
+          "Value": "sha256-J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo="
         }
       ]
     },
     {
       "Route": "THAMCOMVC.styles.css",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001848428835"
+          "Quality": "0.001779359431"
         }
       ],
       "ResponseHeaders": [
@@ -21761,15 +21864,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21789,13 +21892,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "W/\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
@@ -21810,7 +21913,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1078"
+          "Value": "1131"
         },
         {
           "Name": "Content-Type",
@@ -21818,11 +21921,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI=\""
+          "Value": "\"K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21832,13 +21935,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KTn3CoD27AXY+OogXKFlG6ucGHhUY0v78XX4zy53jHI="
+          "Value": "sha256-K4zZQCM7eA3l4yASSLuataICmoxdpXD1rzd/fQr4z4w="
         }
       ]
     },
     {
       "Route": "THAMCOMVC.styles.css.gz",
-      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -21847,7 +21950,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "561"
         },
         {
           "Name": "Content-Type",
@@ -21855,11 +21958,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY=\""
+          "Value": "\"J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 23 Nov 2024 13:24:51 GMT"
+          "Value": "Sat, 23 Nov 2024 20:49:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21877,7 +21980,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hVWsu6NHoYBVQQ/+BT6Ff3kZzEIpfgaW0ce2jm/mJTY="
+          "Value": "sha256-J+3mCjGKgjxP7S5xnK07xS3XkbySS1Fu62k/Z8egjDo="
         }
       ]
     }

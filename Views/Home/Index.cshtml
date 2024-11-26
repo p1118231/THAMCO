@@ -1,8 +1,57 @@
-﻿@{
+﻿@using THAMCOMVC.ViewModels
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model IEnumerable<THAMCOMVC.ViewModels.ProductViewModel>
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@product.ImagePath" class="card-img-top" alt="@product.ProductName" style="height: 200px; object-fit: cover;" 
+                         data-bs-toggle="modal" data-bs-target="#productModal-@product.Id">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.ProductName</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details Modal -->
+            <div class="modal fade" id="productModal-@product.Id" tabindex="-1" aria-labelledby="productModalLabel-@product.Id" aria-hidden="true">
+    
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productModalLabel-@product.Id">@product.ProductName</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="@product.ImagePath" class="img-fluid mb-3" alt="@product.ProductName" />
+                            <p>@product.ProductDescription</p>
+                            <form method="post" asp-action="AddToBasket" asp-controller="Home">
+                                <div class="mb-3">
+                                    <label for="quantity-@product.Id" class="form-label">Quantity</label>
+                                    <input type="number" class="form-control" id="quantity-@product.Id" name="quantity" min="1" required />
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                </div>
+                                @if (User.Identity!= null && User.Identity.IsAuthenticated)
+                                {
+                                    <button type="submit" class="btn btn-primary">Add to Basket</button>
+                                }
+                                else
+                                {
+                                    <a asp-controller="Account" asp-action="Login" class="btn btn-warning">Login to Add to Basket</a>
+                                }
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
+

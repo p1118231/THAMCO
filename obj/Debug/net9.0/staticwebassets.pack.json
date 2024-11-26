@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css",
-      "PackagePath": "staticwebassets/THAMCOMVC.3dg82kvvus.bundle.scp.css"
+      "PackagePath": "staticwebassets/THAMCOMVC.5ofis2b3y1.bundle.scp.css"
     },
     {
       "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/css/site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/images /Thamco.png",
+      "PackagePath": "staticwebassets/images /Thamco.png"
     },
     {
       "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/site.js",

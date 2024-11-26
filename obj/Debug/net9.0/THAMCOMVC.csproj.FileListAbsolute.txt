@@ -1,5 +1,11 @@
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/web.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/appsettings.Development.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/appsettings.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/appsettings.Development.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/appsettings.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOMVC.deps.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOMVC.runtimeconfig.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOMVC.staticwebassets.endpoints.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOMVC.staticwebassets.runtime.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOMVC.staticwebassets.endpoints.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOMVC
@@ -14,10 +20,11 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.MvcApplicationPartsAssemblyInfo.cache
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.RazorAssemblyInfo.cache
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.RazorAssemblyInfo.cs
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.sourcelink.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/bundle/THAMCOMVC.styles.css
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/scopedcss/projectbundle/THAMCOMVC.bundle.scp.css
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-b9sayid5wm.gz
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/5of3t5oiuh-z683rxsr0p.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/pjwc3xlgdx-61n19gt1b8.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/xh3gcwux3e-xtxxf3hu2r.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/wsj71nz6g2-bqjiyaj88i.gz
@@ -79,8 +86,8 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/1k4cccd4rp-muycvpuwrr.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/ecz24klesb-87fc7y1x7t.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/xdib42sskp-mlv21k5csn.gz
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-3dg82kvvus.gz
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-3dg82kvvus.gz
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/reab0d3j5c-5ofis2b3y1.gz
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/b7lbe1eda9-5ofis2b3y1.gz
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/staticwebassets.build.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/staticwebassets.development.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/staticwebassets.build.endpoints.json
