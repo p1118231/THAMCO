@@ -16,21 +16,27 @@ using THAMCOMVC.Models;
 using THAMCOMVC.Support;
 using Microsoft.AspNetCore.Authorization;
 using SQLitePCL;
+using Microsoft.Extensions.Configuration;
+using BCrypt.Net;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace THAMCOMVC.Controllers
 {
     public class AccountController : Controller
+
     {
+        private readonly IConfiguration _configuration;
         private readonly AccountContext _context;
         private string? _accessToken;
         private DateTime _tokenExpiry;
 
         
 
-        public AccountController(AccountContext context)
+        public AccountController(AccountContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
        
@@ -96,9 +102,9 @@ namespace THAMCOMVC.Controllers
             // Define the payload
             var payload = new
             {
-                client_id = "X0dkgwdgOdZapCJd0u7P3GnJWWTxy32a",
-                client_secret = "0sakD3dJY3U6cnNQG__BOLNaR7wnfumnab6u-jYP8ULeXLyae6ElcWgOQ3JRI-AU",
-                audience = "https://p1118231.uk.auth0.com/api/v2/",
+                client_id = _configuration["Auth0:ClientId"],
+                client_secret = _configuration["Auth0:ClientSecret"],
+                audience = _configuration["Auth0:Audience"],
                 grant_type = "client_credentials",
                 scope = "read:users create:users update:users"
             };
@@ -132,7 +138,7 @@ namespace THAMCOMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,PaymentAddress,Password")] User user)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,PaymentAddress,Password,PhoneNumber")] User user)
         {
         if (ModelState.IsValid)
         {
@@ -147,6 +153,10 @@ namespace THAMCOMVC.Controllers
         {   
             email = user.Email,
             password = user.Password,
+            phone_number = user.PhoneNumber,
+            given_name = user.FirstName,
+            family_name = user.LastName,
+            name= user.FirstName,
             connection = "THAMCO-DB",
             
             
@@ -202,7 +212,7 @@ namespace THAMCOMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,PaymentAddress,Password,Auth0UserId")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,PaymentAddress,Password,PhoneNumber,Auth0UserId")] User user)
         {   
             if (id != user.Id)
             {
@@ -216,7 +226,7 @@ namespace THAMCOMVC.Controllers
                     // Update the user in your database
                     _context.Update(user);
                     await _context.SaveChangesAsync();
-                    Console.Write("mandem");
+                    
 
                     // Get the Auth0 User ID (store this in your database when creating the user)
                     var auth0UserId = user.Auth0UserId; // Assuming `Auth0UserId` is stored in your User model
@@ -273,6 +283,157 @@ namespace THAMCOMVC.Controllers
             }
             return View(user);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> EditField(int? id, string field)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _context.User.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Field = field;
+            ViewBag.FieldValue = field switch
+            {
+                "FirstName" => user.FirstName,
+                "LastName" => user.LastName,
+                "Email" => user.Email,
+                "Password" => string.Empty, // Do not show the password
+                "PhoneNumber" => user.PhoneNumber,
+                "PaymentAddress" => user.PaymentAddress,
+                _ => throw new Exception("Invalid field.")
+            };
+
+            return View(user);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditField(int id, string field, string newValue)
+        {
+            Console.Write("here");
+            var user = await _context.User.FindAsync(id);
+            
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                // Local update
+                switch (field)
+                {
+                    case "FirstName":
+                        user.FirstName = newValue;
+                        break;
+                    case "LastName":
+                        user.LastName = newValue;
+                        break;
+                    case "Email":
+                       // Validate email format server-side
+                        if (!new EmailAddressAttribute().IsValid(newValue))
+                        {
+                            ModelState.AddModelError(string.Empty, "Invalid email format.");
+                            return View(user);
+                        }
+                        user.Email = newValue;
+                        break;
+                    case "Password":
+                        user.Password = BCrypt.Net.BCrypt.HashPassword(newValue); // Hash locally
+                        break;
+                    case "PaymentAddress":
+                        user.PaymentAddress = newValue;
+                        break;
+                    case "PhoneNumber":
+                        user.PhoneNumber = newValue;
+                        break;
+                    default:
+                        throw new Exception("Invalid field.");
+                }
+
+               
+                // Update Auth0
+                if (!string.IsNullOrEmpty(user.Auth0UserId))
+                {
+                    var accessToken = await GetAccessTokenAsync();
+                    using var httpClient = new HttpClient();
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+                    if (field == "Email")
+                    {
+                        var emailPayload = new { email = newValue, email_verified = false };
+                        var response = await httpClient.PatchAsJsonAsync(
+                            $"https://p1118231.uk.auth0.com/api/v2/users/{user.Auth0UserId}",
+                            emailPayload
+                        );
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            var errorDetails = await response.Content.ReadAsStringAsync();
+                            throw new Exception($"Failed to update email in Auth0: {errorDetails}");
+                        }
+                    }
+                    else if (field == "Password")
+                    {
+                        var passwordPayload = new { password = newValue };
+                        var response = await httpClient.PatchAsJsonAsync(
+                            $"https://p1118231.uk.auth0.com/api/v2/users/{user.Auth0UserId}",
+                            passwordPayload
+                        );
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            var errorDetails = await response.Content.ReadAsStringAsync();
+                            throw new Exception($"Failed to update password in Auth0: {errorDetails}");
+                        }
+                    }
+                    else if (field == "FirstName")
+                    {
+                        var namePayload = new { name = newValue };
+                        var response = await httpClient.PatchAsJsonAsync(
+                            $"https://p1118231.uk.auth0.com/api/v2/users/{user.Auth0UserId}",
+                            namePayload
+                        );
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            var errorDetails = await response.Content.ReadAsStringAsync();
+                            throw new Exception($"Failed to update password in Auth0: {errorDetails}");
+                        }
+                    }
+                    else if (field == "PhoneNumber")
+                    {
+                        var phone_numberPayload = new { phone_number = newValue };
+                        var response = await httpClient.PatchAsJsonAsync(
+                            $"https://p1118231.uk.auth0.com/api/v2/users/{user.Auth0UserId}",
+                            phone_numberPayload
+                        );
+                        if (!response.IsSuccessStatusCode)
+                        {
+                            var errorDetails = await response.Content.ReadAsStringAsync();
+                            throw new Exception($"Failed to update password in Auth0: {errorDetails}");
+                        }
+                    }
+                }
+
+                 // Save local changes
+                _context.Update(user);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Error updating {field}: {ex.Message}");
+                return View(user);
+            }
+
+            return RedirectToAction(nameof(Details));
+        }
+
 
 
         // GET: Account/Delete/5

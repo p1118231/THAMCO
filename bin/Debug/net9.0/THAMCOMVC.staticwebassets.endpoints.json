@@ -43,7 +43,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Vary",
@@ -92,7 +92,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         }
       ],
       "EndpointProperties": [
@@ -141,7 +141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Vary",
@@ -204,7 +204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Vary",
@@ -245,7 +245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         }
       ],
       "EndpointProperties": [
@@ -286,7 +286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Vary",
@@ -975,6 +975,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js",
+      "AssetFile": "js/EditField.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000535618640"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js",
+      "AssetFile": "js/EditField.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js.gz",
+      "AssetFile": "js/EditField.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js",
+      "AssetFile": "js/EditField.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000535618640"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js",
+      "AssetFile": "js/EditField.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js.gz",
+      "AssetFile": "js/EditField.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4="
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js.gz"
         }
       ]
     },

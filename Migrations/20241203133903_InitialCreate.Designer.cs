@@ -11,7 +11,7 @@ using THAMCOMVC.Data;
 namespace THAMCOMVC.Migrations
 {
     [DbContext(typeof(AccountContext))]
-    [Migration("20241127194326_InitialCreate")]
+    [Migration("20241203133903_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -56,6 +56,10 @@ namespace THAMCOMVC.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

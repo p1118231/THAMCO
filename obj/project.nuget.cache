@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "84vnDZkHaHA=",
+  "dgSpecHash": "Thto13k5T6w=",
   "success": true,
   "projectFilePath": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/THAMCOMVC.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/breezy/.nuget/packages/auth0.core/7.29.0/auth0.core.7.29.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/breezy/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/breezy/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",

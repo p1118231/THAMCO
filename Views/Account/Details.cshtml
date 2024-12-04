@@ -4,47 +4,77 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Profile</h1>
 
-<div>
-    <h4>User</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FirstName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FirstName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaymentAddress)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Auth0UserId)
-        </dd>
-         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Auth0UserId)
-        </dd>
+<div class="container">
+    
+    <table class="table">
+        <tr>
+            <th>First Name</th>
+            <td>@Model.FirstName</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="FirstName" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>@Model.LastName</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="LastName" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@Model.Email</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="Email" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td>********</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="Password" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td>@Model.PhoneNumber</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="PhoneNumber" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Payment Address</th>
+            <td>@Model.PaymentAddress</td>
+            <td>
+                <a asp-action="EditField" asp-route-id="@Model.Id" asp-route-field="PaymentAddress" class="btn btn-primary btn-sm">
+                    Edit
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
 
         
-    </dl>
+   
 </div>
+
+
 <div>
     <a asp-controller="Account" asp-action="Delete">Delete</a>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-controller="Home" asp-action="Index">Home</a>
 </div>

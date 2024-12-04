@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rcs9+8xIiZrnFVvsRz13d7yty/qGSH7vdkGlLjVAIOo=",
+  "Hash": "5Rr6AYCKjSe83hLoEriIhMycIEJX4mYviEilhppxYrE=",
   "Source": "THAMCOMVC",
   "BasePath": "_content/THAMCOMVC",
   "Mode": "Default",
@@ -372,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz",
+      "SourceId": "THAMCOMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/THAMCOMVC",
+      "RelativePath": "js/EditField#[.{fingerprint=o7kxgav5kh}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "267co939rz",
+      "Integrity": "SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js"
     },
     {
       "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/8elwd8saj3-ag7o75518u.gz",
@@ -1464,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images /Thamco.png"
+    },
+    {
+      "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js",
+      "SourceId": "THAMCOMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/",
+      "BasePath": "_content/THAMCOMVC",
+      "RelativePath": "js/EditField#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o7kxgav5kh",
+      "Integrity": "lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/EditField.js"
     },
     {
       "Identity": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/site.js",
@@ -3423,6 +3465,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-lJ/Qu03FmYK3RmCIF9/M7YOPn88Ev/+R2M0WtYS2ZXc="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000535618640"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.js.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000535618640"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lIz+xeOYpkNipTCCwBnqCGL7q/5k8tjeae/yiO6wj0M="
+        }
+      ]
+    },
+    {
+      "Route": "js/EditField.o7kxgav5kh.js.gz",
+      "AssetFile": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 13:51:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o7kxgav5kh"
+        },
+        {
+          "Name": "label",
+          "Value": "js/EditField.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SvvTufpHnHYYS34k83Opj5zQu0vKkeQQBvM3WuVZMv4="
         }
       ]
     },
@@ -21413,7 +21753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21474,7 +21814,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21519,7 +21859,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21574,7 +21914,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21635,7 +21975,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21680,7 +22020,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21735,7 +22075,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21788,7 +22128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21825,7 +22165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21872,7 +22212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21925,7 +22265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21962,7 +22302,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:10:27 GMT"
+          "Value": "Wed, 04 Dec 2024 12:12:43 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images /Thamco.png"
     },
     {
+      "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/EditField.js",
+      "PackagePath": "staticwebassets/js/EditField.js"
+    },
+    {
       "Id": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
