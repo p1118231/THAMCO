@@ -18,6 +18,7 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Auth0.Core.dll
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Azure.Core.dll
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Azure.Identity.dll
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/BCrypt.Net-Next.dll
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Humanizer.dll
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/Microsoft.AspNetCore.Razor.Language.dll
@@ -365,3 +366,4 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.pdb
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/THAMCOMVC.genruntimeconfig.cache
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/ref/THAMCOMVC.dll
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/obj/Debug/net9.0/compressed/7d3djuk8wi-o7kxgav5kh.gz

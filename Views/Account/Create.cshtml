@@ -14,29 +14,39 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="FirstName" class="control-label"></label>
-                <input asp-for="FirstName" class="form-control" />
+                <input asp-for="FirstName" class="form-control" placeholder="Enter your first name"/>
                 <span asp-validation-for="FirstName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="LastName" class="control-label"></label>
-                <input asp-for="LastName" class="form-control" />
+                <input asp-for="LastName" class="form-control" placeholder="Enter your last name"/>
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <input asp-for="Email" class="form-control" placeholder="name@example.com"/>
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="PaymentAddress" class="control-label"></label>
-                <input asp-for="PaymentAddress" class="form-control" />
+                <input asp-for="PaymentAddress" class="form-control" placeholder="Enter your payment address"/>
                 <span asp-validation-for="PaymentAddress" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Enter your phone number"/>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
             </div>
+           <div class="form-group">
+    <label asp-for="Password" class="control-label"></label>
+    <div class="input-group">
+        <input type="password" asp-for="Password" class="form-control" id="Password" />
+        <button type="button" class="btn btn-outline-secondary" id="togglePassword">
+            <i class="bi bi-eye"></i>
+        </button>
+    </div>
+    <span asp-validation-for="Password" class="text-danger"></span>
+</div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -47,6 +57,71 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+<script>
+    document.getElementById("togglePassword").addEventListener("click", function () {
+        const passwordInput = document.getElementById("Password");
+        const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+        passwordInput.setAttribute("type", type);
+
+        // Toggle the eye icon
+        this.querySelector("i").classList.toggle("bi-eye");
+        this.querySelector("i").classList.toggle("bi-eye-slash");
+    });
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCZn2kPp1MNnuohuihlYuk83f76EHMG8&libraries=places"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+
+<script>
+    // Initialize Google Places Autocomplete for Payment Address
+    function initializeAutocomplete() {
+        const paymentAddressInput = document.getElementById("PaymentAddress");
+        if (paymentAddressInput) {
+            const autocomplete = new google.maps.places.Autocomplete(paymentAddressInput);
+            autocomplete.setFields(["address_components", "geometry", "formatted_address"]);
+            autocomplete.addListener("place_changed", function () {
+                const place = autocomplete.getPlace();
+                console.log("Selected address:", place.formatted_address);
+            });
+        }
+    }
+
+    google.maps.event.addDomListener(window, "load", initializeAutocomplete);
+
+    // Initialize intl-tel-input for Phone Number
+    const phoneNumberInput = document.getElementById("PhoneNumber");
+    if (phoneNumberInput) {
+        const intlInput = window.intlTelInput(phoneNumberInput, {
+            initialCountry: "auto",
+            geoIpLookup: function (callback) {
+                fetch("https://ipinfo.io/json?token=YOUR_IPINFO_TOKEN")
+                    .then((resp) => resp.json())
+                    .then((data) => callback(data.country))
+                    .catch(() => callback("us"));
+            },
+            nationalMode:false,
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+        // Validate and set phone number on form submission
+        document.querySelector("form").addEventListener("submit", function (e) {
+            const fullPhoneNumber = intlInput.getNumber();
+            if (!intlInput.isValidNumber()) {
+                e.preventDefault();
+                alert("Please enter a valid phone number.");
+            } else {
+                // Set full phone number in the form
+                const hiddenInput = document.createElement("input");
+                hiddenInput.type = "hidden";
+                hiddenInput.name = "newValue";
+                hiddenInput.value = fullPhoneNumber;
+                this.appendChild(hiddenInput);
+            }
+        });
+    }
+</script>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

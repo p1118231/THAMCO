@@ -21,6 +21,7 @@ namespace THAMCOMVC.Migrations
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PaymentAddress = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Auth0UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>

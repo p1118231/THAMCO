@@ -1,0 +1,63 @@
+@model THAMCOMVC.Models.User
+
+<div class="container">
+    <h2>Edit your @ViewBag.Field</h2>
+    <form asp-action="EditField">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" name="field" value="@ViewBag.Field" />
+       <div class="form-group">
+            <label>@ViewBag.Field</label>
+
+            @if (ViewBag.Field == "PaymentAddress")
+            {
+                <!-- Input with Google Places Autocomplete for address -->
+                <input id="PaymentAddress" type="text" class="form-control" name="newValue" value="@ViewBag.FieldValue" placeholder="Enter your address" required />
+                <span class="text-danger" style="display: none;"></span>
+
+            }
+            else if (ViewBag.Field == "PhoneNumber")
+            {
+                <!-- intl-tel-input for Phone Number -->
+                <input id="phoneNumber" type="tel" class="form-control" name="newValue" placeholder="Enter your phone number" required />
+                <span class="text-danger" style="display: none;"></span>
+
+            }
+            else if (ViewBag.Field == "Password")
+            {
+                <!-- input for password -->
+                
+                <input id="Password" type="password" class="form-control" name="newValue" value="@ViewBag.FieldValue" placeholder="Enter your new password" required/>
+                <span id="PasswordError" class="text-danger" style="display: none;"></span>
+                <button type="button" class="btn btn-outline-secondary" id="togglePassword">
+                <i class="bi bi-eye"></i>
+                </button>
+            }
+            else if (ViewBag.Field == "Email")
+            {
+                <!-- Input for email -->
+                <input id="email" type="email" class="form-control" name="newValue" value="@ViewBag.FieldValue" placeholder="Enter your email" required />
+                <span id="emailError" class="text-danger" style="display:none;">Invalid email format. Please use a valid email address.</span>
+            }
+
+            else
+            {
+                <!-- Standard Input for other fields -->
+                <input type="text" class="form-control" name="newValue" value="@ViewBag.FieldValue" required/>
+                <span class="text-danger" style="display: none;"></span>
+
+            }
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-controller="Account" asp-action="Details" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+<div>
+    <a asp-controller="Account" asp-action="Details">Back to Details</a>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTCZn2kPp1MNnuohuihlYuk83f76EHMG8&libraries=places"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+<script src="~/js/EditField.js"></script>

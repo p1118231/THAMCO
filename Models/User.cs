@@ -19,6 +19,7 @@ public class User{
 
     [Required]
     [StringLength(500, ErrorMessage = "Address must be up to 500 characters long.")]
+    [Display (Name = "Payment Address")]
 
     public required String PaymentAddress{get; set;}
     
@@ -28,6 +29,14 @@ public class User{
     ErrorMessage = "Password must have at least one uppercase letter, one lowercase letter, one number, and one special character.")]
     [DataType(DataType.Password)]
     public required String Password{get; set;}
+
+    [Phone]
+    [Required]
+    [RegularExpression(@"^\+?[1-9]\d{11}$", ErrorMessage = "The phone number must be in international format (e.g., +1234567890).")]
+
+    [Display (Name = "Phone Number")]
+    public required string PhoneNumber { get; set; }
+
 
     public string? Auth0UserId { get; set; }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("THAMCOMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39cfa2e6870cca9b7e6ae2bff13255c2c78ce80c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bbe7e2f6f22359d0f511c8c0a05a678f43ae1ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("THAMCOMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("THAMCOMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
