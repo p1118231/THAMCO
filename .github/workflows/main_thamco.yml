@@ -33,7 +33,7 @@ jobs:
 
      
       - name: Run Tests
-        run: dotnet test --configuration Release
+        run: dotnet test THAMCOTEST/THAMCOTEST.csproj --configuration Release
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
