@@ -22,8 +22,10 @@ jobs:
           dotnet-version: '9.x'
 
          
-      - name: Clean Build Environment
-        run: dotnet clean
+      - name: Manual Clean Workspace
+        run: |
+          rm -rf bin
+          rm -rf obj
 
       
       - name: Restore dependencies
