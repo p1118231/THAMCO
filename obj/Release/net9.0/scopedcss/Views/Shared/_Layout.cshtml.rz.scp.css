@@ -9,17 +9,21 @@ a.navbar-brand[b-fi1ch8vzgy] {
 
 a[b-fi1ch8vzgy] {
   color: #0077cc;
+  text-decoration: none;
 }
 
 .btn-primary[b-fi1ch8vzgy] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+  text-decoration: none;
 }
+
+
 
 .nav-pills .nav-link.active[b-fi1ch8vzgy], .nav-pills .show > .nav-link[b-fi1ch8vzgy] {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color:aliceblue;
   border-color: #1861ac;
 }
 

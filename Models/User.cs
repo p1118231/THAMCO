@@ -7,6 +7,8 @@ public class User{
 
     [Required]
     [Display (Name = "First Name")]
+    [StringLength(50, MinimumLength = 2, ErrorMessage = "First Name must be between 2 and 50 characters.")]
+    
     public required String FirstName{get; set;}
 
     [Required]
@@ -32,7 +34,7 @@ public class User{
 
     [Phone]
     [Required]
-    [RegularExpression(@"^\+?[1-9]\d{11}$", ErrorMessage = "The phone number must be in international format (e.g., +1234567890).")]
+    [RegularExpression(@"^\+?[1-9]\d{10,14}$", ErrorMessage = "The phone number must be in international format (e.g., +1234567890).")]
 
     [Display (Name = "Phone Number")]
     public required string PhoneNumber { get; set; }

@@ -1,7 +1,0 @@
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/THAMCOMVC
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/appsettings.Development.json
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/appsettings.json
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/THAMCOMVC.dll
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/THAMCOMVC.deps.json
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/THAMCOMVC.runtimeconfig.json
-/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/publish/THAMCOMVC.pdb
