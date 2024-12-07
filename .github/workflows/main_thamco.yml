@@ -21,6 +21,18 @@ jobs:
         with:
           dotnet-version: '9.x'
 
+         
+      - name: Clean Build Environment
+        run: dotnet clean
+
+      
+      - name: Restore dependencies
+        run: dotnet restore
+
+     
+      - name: Run Tests
+        run: dotnet test --configuration Release
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
