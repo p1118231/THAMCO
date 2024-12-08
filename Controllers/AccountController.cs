@@ -34,13 +34,16 @@ namespace THAMCOMVC.Controllers
         private string? _accessToken;
         private DateTime _tokenExpiry;
 
+        private readonly bool _isTestEnvironment;
+
         
 
-        public AccountController(IAccountRepository repository,IConfiguration configuration)
+        public AccountController(IAccountRepository repository,IConfiguration configuration, bool isTestEnvironment = false)
         {
             
             _configuration = configuration;
             _repository = repository;
+            _isTestEnvironment = isTestEnvironment;
         }
 
        
@@ -135,6 +138,13 @@ namespace THAMCOMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Email,PaymentAddress,Password,PhoneNumber")] User user)
         {
+            if (_isTestEnvironment)
+            {
+                await _repository.AddUserAsync(user);
+                await _repository.SaveChangesAsync();
+                return RedirectToAction("Login");
+            }
+
         if (ModelState.IsValid)
         {
         

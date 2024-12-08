@@ -11,6 +11,8 @@ using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using THAMCOMVC.Data;
+using THAMCOMVC.Repositories;
+using THAMCOMVC.Interfaces;
 
 
 
@@ -21,6 +23,8 @@ builder.Services.AddDbContext<AccountContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+
 
 // Configure the HTTP request pipeline.
 builder.Services.ConfigureSameSiteNoneCookies();

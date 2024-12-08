@@ -21,6 +21,8 @@ namespace THAMCOTEST
         private readonly Mock<IAccountRepository> _mockRepo;
         private readonly AccountController _controller;
 
+        
+
         public AccountControllerTests()
         {
             // Mock IConfiguration
@@ -33,7 +35,7 @@ namespace THAMCOTEST
             _mockRepo = new Mock<IAccountRepository>();
             _mockRepo.Setup(repo => repo.SaveChangesAsync()).Returns(Task.CompletedTask);
 
-            _controller = new AccountController(_mockRepo.Object, _mockConfig.Object);
+            _controller = new AccountController(_mockRepo.Object, _mockConfig.Object, true);
         }
 
 
@@ -108,14 +110,13 @@ namespace THAMCOTEST
         {
             // Arrange
             var user = new User { Id = 1,
-           
-                FirstName = "John",
+            FirstName = "John",
                 LastName = "Doe",
                 Email = "john.doe@example.com",
                 PaymentAddress = "123 Street",
                 Password = "Password@1",
-                PhoneNumber = "+12345678901",
-                 Auth0UserId = "auth0|12345" };
+                PhoneNumber = "1238901",
+                Auth0UserId = "auth0|12345" };
             _mockRepo.Setup(repo => repo.GetUserByIdAsync(user.Id)).ReturnsAsync(user);
 
             // Act & Assert
