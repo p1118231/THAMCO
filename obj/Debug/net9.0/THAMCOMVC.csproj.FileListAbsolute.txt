@@ -9,6 +9,11 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOTEST/bin/Release/net9.0/publish/web.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/bin/Release/net9.0/publish/web.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/web.config
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/CodeCoverage/arm64/VanguardInstrumentationProfiler_arm64 2.config
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/CodeCoverage/CodeCoverage 2.config
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/CodeCoverage/VanguardInstrumentationProfiler_x86 2.config
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/web 2.config
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/web 2.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/publish/web.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/bin/Release/net9.0/publish/web.config
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/bin/Release/net9.0/publish/web.config
@@ -64,6 +69,35 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOTEST/obj/project.assets.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOTEST/obj/Release/net9.0/THAMCOTEST.sourcelink.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/publish/THAMCOTEST/obj/THAMCOTEST.csproj.nuget.dgspec.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/appsettings 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/appsettings 3.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/appsettings.Development 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/appsettings 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/appsettings.Development 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/coverlet.collector.deps 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/appsettings 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/appsettings.Development 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/THAMCOMVC.deps 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/THAMCOMVC.runtimeconfig 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/publish/THAMCOMVC.staticwebassets.endpoints 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/THAMCOMVC.deps 4.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/THAMCOMVC.runtimeconfig 4.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/THAMCOMVC.staticwebassets.endpoints 3.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/THAMCOTEST.deps 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/publish/THAMCOTEST.runtimeconfig 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.deps 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.deps 3.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.runtimeconfig 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.runtimeconfig 3.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.staticwebassets.endpoints 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.staticwebassets.runtime 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOMVC.staticwebassets.runtime 3.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST.deps 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST.runtimeconfig 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST/obj/Debug/net9.0/THAMCOTEST.sourcelink 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST/obj/project.assets 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST/obj/THAMCOTEST.csproj.nuget.dgspec 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Debug/net9.0/THAMCOTEST/obj/THAMCOTEST.csproj.nuget.dgspec 3.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/appsettings.Development.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/appsettings.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/publish/appsettings.Development.json
@@ -111,6 +145,8 @@
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/obj/project.assets.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/obj/Release/net9.0/THAMCOTEST.sourcelink.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/bin/Release/net9.0/THAMCOTEST/obj/THAMCOTEST.csproj.nuget.dgspec.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/obj/Debug/net9.0/THAMCOTEST.sourcelink 2.json
+/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/obj/Debug/net9.0/THAMCOTEST.sourcelink 3.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/obj/project.assets.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/obj/Release/net9.0/THAMCOTEST.sourcelink.json
 /Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/bin/Debug/net9.0/THAMCOTEST/obj/THAMCOTEST.csproj.nuget.dgspec.json
