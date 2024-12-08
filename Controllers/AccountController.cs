@@ -19,6 +19,7 @@ using SQLitePCL;
 using Microsoft.Extensions.Configuration;
 using BCrypt.Net;
 using System.ComponentModel.DataAnnotations;
+using THAMCOMVC.Interfaces;
 
 
 namespace THAMCOMVC.Controllers
@@ -27,27 +28,22 @@ namespace THAMCOMVC.Controllers
 
     {
         private readonly IConfiguration _configuration;
-        private readonly AccountContext _context;
+        
+        private readonly IAccountRepository _repository;
+      
         private string? _accessToken;
         private DateTime _tokenExpiry;
 
         
 
-        public AccountController(AccountContext context, IConfiguration configuration)
+        public AccountController(IAccountRepository repository,IConfiguration configuration)
         {
-            _context = context;
+            
             _configuration = configuration;
+            _repository = repository;
         }
 
        
-
-        // GET: Account
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.User.ToListAsync());
-        }
-
-        
         //enable auth0 login
         public IActionResult Login()
         {
@@ -72,8 +68,7 @@ namespace THAMCOMVC.Controllers
                 
             }
 
-            var user = await _context.User
-                .FirstOrDefaultAsync(m => m.Auth0UserId == id);
+            var user = await _repository.GetUserByAuth0IdAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -181,8 +176,8 @@ namespace THAMCOMVC.Controllers
         var auth0UserId = auth0ResponseJson.RootElement.GetProperty("user_id").GetString();
 
         user.Auth0UserId = auth0UserId;
-        _context.User.Add(user);
-        await _context.SaveChangesAsync();
+        await _repository.AddUserAsync(user);
+        await _repository.SaveChangesAsync();
 
       return RedirectToAction("Login");
         }
@@ -199,7 +194,7 @@ namespace THAMCOMVC.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User.FindAsync(id);
+            var user = await _repository.GetUserByIdAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -207,82 +202,6 @@ namespace THAMCOMVC.Controllers
             return View(user);
         }
 
-        // POST: Account/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Email,PaymentAddress,Password,PhoneNumber,Auth0UserId")] User user)
-        {   
-            if (id != user.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    // Update the user in your database
-                    _context.Update(user);
-                    await _context.SaveChangesAsync();
-                    
-
-                    // Get the Auth0 User ID (store this in your database when creating the user)
-                    var auth0UserId = user.Auth0UserId; // Assuming `Auth0UserId` is stored in your User model
-
-                    if (string.IsNullOrEmpty(auth0UserId))
-                    {
-                        throw new Exception("Auth0 User ID is missing for this user.");
-                    }
-
-                    // Get the access token
-                    var accessToken = await GetAccessTokenAsync();
-
-                    // Prepare the payload for updating Auth0 user
-                    var auth0UpdatePayload = new
-                    {
-                        name = $"{user.FirstName} {user.LastName}", 
-                        email = user.Email,// Concatenate first and last name
-                        password = user.Password
-                    };
-
-                    // Make the PATCH request to Auth0
-                    using var httpClient = new HttpClient();
-                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-
-                    var auth0Response = await httpClient.PatchAsJsonAsync(
-                        $"https://p1118231.uk.auth0.com/api/v2/users/{auth0UserId}",
-                        auth0UpdatePayload
-                    );
-
-                    if (!auth0Response.IsSuccessStatusCode)
-                    {
-                        var errorDetails = await auth0Response.Content.ReadAsStringAsync();
-                        throw new Exception($"Failed to update user in Auth0. Error: {errorDetails}");
-                    }
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UserExists(user.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError(string.Empty, "An error occurred: " + ex.Message);
-                    return View(user);
-                }
-
-                return RedirectToAction(nameof(Details));
-            }
-            return View(user);
-        }
 
         [HttpGet]
         public async Task<IActionResult> EditField(int? id, string field)
@@ -292,7 +211,7 @@ namespace THAMCOMVC.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User.FindAsync(id);
+            var user = await _repository.GetUserByIdAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -319,7 +238,7 @@ namespace THAMCOMVC.Controllers
         public async Task<IActionResult> EditField(int id, string field, string newValue)
         {
             Console.Write("here");
-            var user = await _context.User.FindAsync(id);
+            var user = await _repository.GetUserByIdAsync(id);
             
             if (user == null)
             {
@@ -422,8 +341,8 @@ namespace THAMCOMVC.Controllers
                 }
 
                  // Save local changes
-                _context.Update(user);
-                await _context.SaveChangesAsync();
+                await _repository.UpdateUser(user);
+                await _repository.SaveChangesAsync();
             }
             catch (Exception ex)
             {
@@ -444,8 +363,7 @@ namespace THAMCOMVC.Controllers
                 id = Auth0UserHelper.GetAuth0UserId(User);
             }
 
-            var user = await _context.User
-                .FirstOrDefaultAsync(m => m.Auth0UserId == id);
+            var user = await _repository.GetUserByAuth0IdAsync(id);
             if (user == null)
             {
                 return NotFound();
@@ -459,7 +377,7 @@ namespace THAMCOMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-           var user = await _context.User.FindAsync(id);
+           var user = await _repository.GetUserByIdAsync(id);
            /* if (user != null)
             {
                 _context.User.Remove(user);
@@ -472,7 +390,7 @@ namespace THAMCOMVC.Controllers
 
         private bool UserExists(int id)
         {
-            return _context.User.Any(e => e.Id == id);
+            return _repository.UserExists(id);
         }
     }
 }

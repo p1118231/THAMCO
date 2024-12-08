@@ -4,7 +4,7 @@ using Xunit;
 using System.Linq;
 using System.Collections.Generic;
 
-public class UnitTest1
+public class UserTest
 {
     private List<ValidationResult> ValidateModel(User model)
     {
