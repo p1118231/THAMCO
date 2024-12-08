@@ -21,11 +21,11 @@ jobs:
         with:
           dotnet-version: '9.x'
 
-       - name: Manual Clean Workspace
+         
+      - name: Manual Clean Workspace
         run: |
           rm -rf bin
           rm -rf obj
-
 
       - name: Restore dependencies
         run: dotnet restore
