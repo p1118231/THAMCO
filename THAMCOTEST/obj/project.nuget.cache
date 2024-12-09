@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j7dYmnM2Cpo=",
+  "dgSpecHash": "WUIaL3EB78g=",
   "success": true,
   "projectFilePath": "/Users/breezy/Documents/breezy/third_year/THAMCO/THAMCOMVC/THAMCOTEST/THAMCOTEST.csproj",
   "expectedPackageFiles": [
@@ -155,6 +155,10 @@
     "/Users/breezy/.nuget/packages/nuget.projectmodel/6.11.0/nuget.projectmodel.6.11.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/nuget.protocol/6.11.0/nuget.protocol.6.11.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/nuget.versioning/6.11.0/nuget.versioning.6.11.0.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/polly/8.5.0/polly.8.5.0.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/polly.core/8.5.0/polly.core.8.5.0.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/polly.extensions/8.5.0/polly.extensions.8.5.0.nupkg.sha512",
+    "/Users/breezy/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
     "/Users/breezy/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "/Users/breezy/.nuget/packages/sqlitepclraw.core/2.1.10/sqlitepclraw.core.2.1.10.nupkg.sha512",
     "/Users/breezy/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.10/sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
