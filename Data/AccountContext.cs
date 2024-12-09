@@ -15,5 +15,14 @@ namespace THAMCOMVC.Data
         }
 
         public DbSet<THAMCOMVC.Models.User> User { get; set; } = default!;
+
+         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                // Default fallback configuration
+                optionsBuilder.UseSqlite("Data Source=localdb.sqlite");
+            }
+        }
     }
 }

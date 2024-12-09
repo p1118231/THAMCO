@@ -13,16 +13,46 @@ using Microsoft.EntityFrameworkCore;
 using THAMCOMVC.Data;
 using THAMCOMVC.Repositories;
 using THAMCOMVC.Interfaces;
+using Polly;
+using System;
+using Polly.Extensions.Http;
+using System.Net.Http;
+
 
 
 
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<AccountContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("AccountContext") ?? throw new InvalidOperationException("Connection string 'AccountContext' not found.")));
+//builder.Services.AddDbContext<AccountContext>(options =>
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("AccountContext") ?? throw new InvalidOperationException("Connection string 'AccountContext' not found.")));
 
+builder.Services.AddDbContext<AccountContext>(options =>
+{
+    
+    
+        var cs = builder.Configuration.GetConnectionString("AccountContext");
+        options.UseSqlServer(cs, sqlServerOptionsAction: sqlOptions =>
+            sqlOptions.EnableRetryOnFailure(
+                maxRetryCount: 5,
+                maxRetryDelay: TimeSpan.FromSeconds(6),
+                errorNumbersToAdd: null
+            )
+        );
+    
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+/*if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+}
+else
+{
+    builder.Services.AddHttpClient<IAccountRepository, IAccountRepository>()
+                    .AddPolicyHandler(GetRetryPolicy())
+                    .AddPolicyHandler(GetCircuitBreakerPolicy()); ;
+}*/
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 
@@ -93,3 +123,19 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+/*IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+        .WaitAndRetryAsync(5, retryAttempt =>
+            TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+}
+
+IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .CircuitBreakerAsync(5, TimeSpan.FromSeconds(30));
+}*/
